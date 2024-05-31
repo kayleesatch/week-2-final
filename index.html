@@ -17,13 +17,46 @@
               <div class="treact">Treact</div>
             </div>
             <ul class="nav__links">
-              <li class="link">About</li>
-              <li class="link">Blog</li>
-              <li class="link">Pricing</li>
-              <li class="link">Contact Us</li>
-              <li class="link">Login</li>
-              <li class="link__sign-up" href="#sign up">Sign Up</li>
+                <li class="link">About</li>
+                <li class="link">Blog</li>
+                <li class="link">Pricing</li>
+                <li class="link">Contact Us</li>
+                <li class="link">Login</li>
+                <li class="link__sign-up" href="#sign up">Sign Up</li>
             </ul>
+            <button class="btn__menu--open" onclick="openMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="btn__menu">
+                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="menu__backdrop">
+                    <ul class="menu__links">
+                        <li class="menu__list">
+                            <a href="#" class="menu__link"></a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#about" class="menu__link">About</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#blog" class="menu__link">Blog</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#pricing" class="menu__link">Pricing</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#contact us" class="menu__link">Contact Us</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#login" class="menu__link">Login</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#sign up" class="menu__link">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
           </div>
         </div>
       </nav>
@@ -73,89 +106,90 @@
     <section id="features">
         <div class="row">
             <div class="features__container">
-                <h1 class="features__title">FEATURES</h1>
-                <h3 class="features__heading" >We Have Amazing <span class="purple">Service.</span> </h3>
-                <p class="features__para">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate
-                    maiores odio, excepturi quis velit quisquam nam, dolorem odit placeat
-                    doloribus 
-                </p>
-                <div>
-                    <ul class="services__container">
-                        <li class="service">
-                            <span class="img__container">
-                                <figure class="service__icon">
-                                    <i class="fa-solid fa-shield-halved"></i>
-                                </figure>
-                            </span>
-                            <label class="service__title">Secure</label>
-                            <h3>
-                                We strictly only deal with vendors that provide top notch security.
-                            </h3>
-                        </li>
-                        <li class="service">
-                            <span class="img__container">
-                                <figure class="service__icon">
-                                    <i class="fa-solid fa-headset"></i>
-                                </figure>
-                            </span>
-                            <label class="service__title">24/7 Support</label>
-                            <h3>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-                                illum cupiditate
-                            </h3>
-                        </li>
-                        <li class="service">
-                            <span class="img__container">
-                                <figure class="service__icon">
-                                    <i class="fa-solid fa-list-check"></i>
-                                </figure>
-                            </span>
-                            <label class="service__title">Customizable</label>
-                            <h3>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-                                illum cupiditate 
-                            </h3>
-                        </li>
-                        <li class="service">
-                            <span class="img__container">
-                                <figure class="service__icon">
-                                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
-                                </figure>
-                            </span>
-                            <label class="service__title">Reliable</label>
-                            <h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-                        illum cupiditate
-                    </h3>
-                </li>
-                <li class="service">
-                    <span class="img__container">
-                        <figure class="service__icon">
-                            <i class="fa-solid fa-bolt-lightning"></i>
-                        </figure>
-                    </span>
-                    <label class="service__title">Fast</label>
-                    <h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-                        illum cupiditate 
-                    </h3>
-                </li>
-                <li class="service">
-                    <span class="img__container">
-                        <figure class="service__icon">
-                            <i class="fa-solid fa-house-chimney-user"></i>
-                        </figure>
-                    </span>
-                    <label class="service__title">Easy</label>
-                    <h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-                        illum cupiditate 
-                    </h3>
-                </li>
-            </div>
-          </div>
-        </div>
+                    <h1 class="features__title"><span class="purple">FEATURES</span></h1>
+                    <h3 class="features__heading" >We Have Amazing <span class="purple">Service.</span> </h3>
+                    <p class="features__para">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate
+                        maiores odio, excepturi quis velit quisquam nam, dolorem odit placeat
+                        doloribus 
+                    </p>
+                    <div>
+                        <ul class="services__container">
+                            <li class="service">
+                                <span class="img__container">
+                                    <figure class="service__icon">
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                    </figure>
+                                </span>
+                                <label class="service__title">Secure</label>
+                                <h3 class="service__para">
+                                    We strictly only deal with vendors that provide top notch security.
+                                </h3>
+                            </li>
+                            <li class="service">
+                                <span class="img__container">
+                                    <figure class="service__icon">
+                                        <i class="fa-solid fa-headset"></i>
+                                    </figure>
+                                </span>
+                                <label class="service__title">24/7 Support</label>
+                                <h3 class="service__para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+                                    illum cupiditate
+                                </h3>
+                            </li>
+                            <li class="service">
+                                <span class="img__container">
+                                    <figure class="service__icon">
+                                        <i class="fa-solid fa-list-check"></i>
+                                    </figure>
+                                </span>
+                                <label class="service__title">Customizable</label>
+                                <h3 class="service__para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+                                    illum cupiditate 
+                                </h3>
+                            </li>
+                            <li class="service">
+                                <span class="img__container">
+                                    <figure class="service__icon">
+                                        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                                    </figure>
+                                </span>
+                                <label class="service__title">Reliable</label>
+                                <h3 class="service__para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+                                    illum cupiditate
+                                </h3>
+                            </li>
+                            <li class="service">
+                                <span class="img__container">
+                                    <figure class="service__icon">
+                                        <i class="fa-solid fa-bolt-lightning"></i>
+                                    </figure>
+                                </span>
+                                <label class="service__title">Fast</label>
+                                <h3 class="service__para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+                                    illum cupiditate 
+                                </h3>
+                            </li>
+                            <li class="service">
+                                <span class="img__container">
+                                    <figure class="service__icon">
+                                        <i class="fa-solid fa-house-chimney-user"></i>
+                                    </figure>
+                                </span>
+                                <label class="service__title">Easy</label>
+                                <h3 class="service__para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+                                    illum cupiditate 
+                                </h3>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            
     </ul>
 </section>
 <section id="quality">    
@@ -211,20 +245,28 @@
                 <label class="values__title"><span class="purple">VALUES</span></label>
                 <h1 class="values__heading">We always abide by our <span class="purple">Principals.</span></h1>
                 <p class="values__para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse repellendus accusantium deserunt cumque hic a pariatur veniam, ipsum est porro distinctio facere eaque, dolore expedita, itaque tempore perferendis. Adipisci, consequatur!</p>
-                <div class="icon__para--container">
-                    <figure class="dollar__icon">
-                        <i class="fa-solid fa-dollar-sign" alt="dollar__icon"></i>
-                    </figure>
-                    <h3 class="value__title">Affordable</h3>
+                <div class="values__icon-para--wrapper">
+                    <div class="para__icon--wrapper">
+                        <div class="icon__para--container">
+                            <div class="icon__title--wrapper">
+                                <figure class="dollar__icon">
+                                    <i class="fa-solid fa-dollar-sign" alt="dollar__icon"></i>
+                                </figure>
+                                <h3 class="value__title">Affordable</h3>
+                            </div>
+                            <p class="icon__para">We promise to offer you the best rate we can - at par with the industy standard.</p>
+                        </div>
+                        <div class="icon__para--container">
+                            <div class="icon__title--wrapper">
+                                <figure class="suitcase__icon">
+                                    <i class="fa-solid fa-suitcase" alt="suitcase__icon"></i>
+                                </figure>            
+                                <h3 class="value__title">Professionalism</h3>
+                            </div>
+                            <p class="icon__para">We assure you that our templates are designed and created by professional designers.</p>
+                        </div>
+                    </div>
                 </div>
-                    <p class="icon__para">We promise to offer you the best rate we can - at pat with the industy standard.</p>
-                <div class="icon__para--container">
-                    <figure class="suitcase__icon">
-                        <i class="fa-solid fa-suitcase" alt="suitcase__icon"></i>
-                    </figure>            
-                    <h3 class="value__title">Professionalism</h3>
-                </div>
-                    <p class="icon__para">We assure you that our templates are designed and created by professional designers.</p>
                     <button class="value__btn">Learn More</button>
             </div>
             <div class="value__img--container">
