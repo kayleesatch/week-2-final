@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="index.js"/>
+    <link rel="stylesheet" href="prettier.config.json"/>
     <script src="https://kit.fontawesome.com/009510bb19.js" crossorigin="anonymous"></script>
     <title>Treact</title>
   </head>
@@ -27,34 +29,33 @@
             <button class="btn__menu--open" onclick="openMenu()">
                 <i class="fa-solid fa-bars"></i>
             </button>
-            <div class="btn__menu">
-                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
-                    <i class="fa-solid fa-xmark"></i>
-                </button>
-                <div class="menu__backdrop">
-                    <ul class="menu__links">
-                        <li class="menu__list">
-                            <a href="#" class="menu__link"></a>
-                        </li>
-                        <li class="menu__list">
-                            <a href="#about" class="menu__link">About</a>
-                        </li>
-                        <li class="menu__list">
-                            <a href="#blog" class="menu__link">Blog</a>
-                        </li>
-                        <li class="menu__list">
-                            <a href="#pricing" class="menu__link">Pricing</a>
-                        </li>
-                        <li class="menu__list">
-                            <a href="#contact us" class="menu__link">Contact Us</a>
-                        </li>
-                        <li class="menu__list">
-                            <a href="#login" class="menu__link">Login</a>
-                        </li>
-                        <li class="menu__list">
-                            <a href="#sign up" class="menu__link">Sign Up</a>
-                        </li>
-                    </ul>
+            <div class="off__screen--menu">
+                <div class="btn__menu">
+                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <div class="menu__backdrop">
+                        <ul class="menu__links">
+                            <li class="menu__list">
+                                <a href="#about" class="menu__link">About</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="#blog" class="menu__link">Blog</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="#pricing" class="menu__link">Pricing</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="#contact us" class="menu__link">Contact Us</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="#login" class="menu__link">Login</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="#sign up" class="menu__link">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
           </div>
