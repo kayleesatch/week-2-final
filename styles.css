@@ -214,7 +214,7 @@ p.customers {
   display: flex;
   flex-wrap: wrap;
   padding: 80px 0;
-  height: 500px;
+  height: 100vh;
   margin: 0 40px;
 }
 
@@ -1031,14 +1031,119 @@ svg {
     position: relative;
   }
 
+  #section {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+  }
+
   .logo {
     height: 50px;
     width: 50px;
   }
 
+  .header {
+    flex-direction: column;
+  }
+
+  .header__wrapper {
+    height: 150vh;
+    width: 100%;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+  }
+
+  .header__title {
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .header__para {
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    display: block;
+  }
+
   .email__wrapper {
-    transform: scale(0.66);
-    margin: 0 0 -50px 0;
+   margin: 40px 40px 40px 200px
+  }
+
+  .email__btn {
+    padding: 8px 40px;
+  }
+
+  .customers {
+    padding-top: 12px;
+  }
+
+  .desk__img {
+    padding-bottom: 150px;
+  }
+
+  .features__container {
+    margin-top: 200px;
+  }
+
+  .features__title {
+    text-align: center;
+  }
+
+  .features__heading {
+    text-align: center;
+  }
+
+  .services__container {
+    height: 250vh;
+    width: 100%;
+  }
+
+  .service {
+    height: calc(100% / 2);
+    width: calc(100% / 3);
+  }
+
+  .service__title {
+    font-size: 18px;
+  }
+
+  .quality__container {
+    height: 200vh;
+  }
+
+  .steps__container {
+    height: 150vh;
+  }
+
+  .steps__img {
+    margin-top: 100px;
+  }
+
+  .value__title {
+    font-size: 18px;
+  }
+
+  .icon__para {
+    text-align: center;
+  }
+
+  .value__img {
+    padding-top: 100px;
+  }
+
+  .testimonials__container {
+    height: 250vh;
+  }
+
+  .testimonials__img {
+    display: none;
   }
 }
 
