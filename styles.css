@@ -50,6 +50,11 @@ li {
   align-items: center;
 }
 
+.bars {
+  display: none;
+  color: white;
+}
+
 .nav__links {
   font-weight: bold;
   display: flex;
@@ -203,7 +208,7 @@ p.customers {
   display: flex;
   flex-wrap: wrap;
   padding: 80px 0;
-  height: 100vh;
+  height: 65vh;
   margin: 0 40px;
 }
 
@@ -258,7 +263,7 @@ p.customers {
   width: 100%;
   max-width: 1300px;
   margin: 100px 40px 0 40px;
-  height: 80vh;
+  height: 60vh;
   display: flex;
 }
 
@@ -322,7 +327,7 @@ p.customers {
 
 .steps__container {
   display: flex;
-  height: 100vh;
+  height: 60vh;
   margin: 150px 0;
 }
 
@@ -551,7 +556,7 @@ svg {
 .plans__container {
   display: flex;
   width: 100%;
-  margin: 24px 80px;
+  margin: 24px auto;
 }
 
 .plans {
@@ -561,7 +566,7 @@ svg {
   justify-content: space-between;
   border: 2px solid lightgray;
   border-radius: 15px;
-  margin: 0 8px;
+  margin: 0 24px;
 }
 
 .individual__plan {
@@ -648,6 +653,7 @@ svg {
   background-color: white;
   color: #6415ff;
   border: white;
+  opacity: 0.7;
   border-radius: 25px;
   font-weight: 700;
   font-size: 14px;
@@ -683,7 +689,7 @@ svg {
   width: 100%;
   max-width: 1300px;
   padding: 100px 50px;
-  height: 140vh;
+  height: 100vh;
 }
 
 .testimonials__img--container {
@@ -862,8 +868,8 @@ svg {
 
 .footer__container {
   width: 100%;
-  max-width: 1300px;
   height: 250px;
+  margin: 0 auto;
   display: flex;
   background-color: #6415ff;
 }
@@ -898,7 +904,14 @@ svg {
   background-color: #6415ff;
   border-top: 1px solid lightgray;
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  justify-content: space-between;
+}
+
+.logo__name--wrapper {
+  display: flex;
 }
 
 .footer__logo {
@@ -910,7 +923,7 @@ svg {
 .logo__name {
   font-size: 24px;
   color: white;
-  margin-top: 32px;
+  margin: auto 0;
 }
 
 .footer__copyright {
@@ -918,13 +931,12 @@ svg {
   font-size: 16px;
   text-align: center;
   justify-content: center;
-  margin-left: 200px;
   padding-top: 32px;
 }
 
 .footer__logos {
   display: flex;
-  margin: 32px 16px 16px 240px;
+  margin-top: 32px;
 }
 
 .facebook__logo {
@@ -972,6 +984,18 @@ svg {
     display: none;
   }
 
+  #body {
+    margin: 0 auto;
+    justify-content: center;
+    overflow: none;
+  }
+
+  .bars {
+    color: #6415ff;
+    font-size: 32px;
+
+  }
+
   .nav__container {
     padding: 0 24px;
     width: 100%;
@@ -1000,7 +1024,7 @@ svg {
   }
 
   .header__wrapper {
-    height: 150vh;
+    height: 80vh;
     width: 100%;
     max-width: 768px;
     margin-left: auto;
@@ -1038,13 +1062,13 @@ svg {
   }
 
   .desk__img {
-    width: 100%;
+    width: 80%;
     max-width: 750px;
   }
 
   .features__container {
     margin-top: 800px;
-    height: 200vh;
+    height: 290vh;
   }
 
   .features__title {
@@ -1055,33 +1079,115 @@ svg {
     text-align: center;
   }
 
+  .features__para {
+    font-size: 24px;
+  }
+
   .services__container {
-    height: 150vh;
+    display: block;
     width: 100%;
+    padding: 0 auto;
   }
 
   .service {
-    height: 250px;
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .service__icon {
+    font-size: 24px;
   }
 
   .service__title {
-    font-size: 18px;
+    font-size: 40px;
+    padding: 24px 0;
+  }
+
+  .service__para {
+    font-size: 24px;
+    text-align: center;
+    width: 60%; 
   }
 
   .quality__container {
-    height: 150vh;
+    height: 130vh;
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
   }
 
   .quality__img {
-    margin-top: 150px;
+    width: 100%;
+    transform:scale(1.5);
+    margin-bottom: 72px;
+  }
+
+  .quality__heading--wrapper {
+    text-align: center;
+    width: 100%;
+    margin-top: 32px;
+  }
+
+  .quality__title {
+    font-size: 24px;
+  }
+
+  .quality__para {
+    font-size: 24px;
+  }
+
+  .quality__btn {
+    padding: 20px 40px;
+    font-size: 24px;
+    border-radius: 45px;
+  }
+
+  .steps {
+    height: 200vh;
   }
 
   .steps__container {
-    height: 150vh;
+    height: 180vh;
+    display: block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 
   .steps__img {
-    margin-top: 100px;
+    width: 750px;
+  }
+
+  .steps__heading--wrapper {
+    width: 100%;
+    text-align: center;
+    padding-top: 32px;
+  }
+
+  .steps__title {
+    font-size: 24px;
+  }
+
+  .step__wrapper {
+    width: 100%;
+  }
+
+  .title__para--wrapper {
+    width: 100%;
+  }
+
+  .num__title {
+    font-size: 32px;
+  }
+
+  .step__para {
+    font-size: 16px;
+    align-items: center;
   }
 
   .value__title {
