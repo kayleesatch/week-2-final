@@ -103,7 +103,7 @@ li {
 
 .header__title {
   font-size: 36px;
-  margin: 40px;
+  margin: 40px 0;
   width: 100%;
   text-align: left;
 }
@@ -122,7 +122,7 @@ li {
 
 .header__para {
   font-size: 18px;
-  margin: 32px 32px 32px 40px;
+  margin: 40px 0;
   width: 100%;
   text-align: left;
 }
@@ -157,13 +157,11 @@ input.email {
 
 .desk__img {
   width: 100%;
-  margin: 40px;
 }
 
 p.customers {
   margin: 40px;
   font-size: 16px;
-  align-items: center;
   color: darkgray;
   padding-left: 40px;
   text-align: center;
@@ -207,9 +205,7 @@ p.customers {
 .services__container {
   display: flex;
   flex-wrap: wrap;
-  padding: 80px 0;
-  height: 65vh;
-  margin: 0 40px;
+  margin: 40px;
 }
 
 .service {
@@ -223,10 +219,10 @@ p.customers {
 .service__title {
   font-size: 24px;
   font-weight: 700;
-  margin: 16px 24px 0 24px;
-  height: 32px;
+  margin: auto 16px;
+  display: flex;
   justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .service__para {
@@ -239,15 +235,14 @@ p.customers {
 
 .service__icon {
   color: #6415ff;
-  transform: scale(1.25);
+  transform: scale(1.4);
   width: 48px;
   height: 48px;
+  display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid lightgray;
   border-radius: 25px;
-  margin-top: 32px;
-  padding-top: 12px;
 }
 
 .img__container {
@@ -262,8 +257,7 @@ p.customers {
 .quality__container {
   width: 100%;
   max-width: 1300px;
-  margin: 100px 40px 0 40px;
-  height: 60vh;
+  margin-top: 100px;
   display: flex;
 }
 
@@ -327,7 +321,6 @@ p.customers {
 
 .steps__container {
   display: flex;
-  height: 60vh;
   margin: 150px 0;
 }
 
@@ -346,7 +339,6 @@ svg {
 
 .steps__heading--wrapper {
   width: 50%;
-  height: 30vh;
 }
 
 .steps__title {
@@ -364,11 +356,9 @@ svg {
 .number {
   font-size: 36px;
   font-weight: 600;
-  margin: 24px 40px;
-  width: 10%;
   position: absolute;
   color: lightgray;
-  text-align: left;
+  margin: 0 40px;
 }
 
 .num__title {
@@ -378,8 +368,7 @@ svg {
 }
 
 .step__wrapper {
-  justify-content: space-between;
-  width: 30%;
+
 }
 
 .step__para {
@@ -393,7 +382,7 @@ svg {
 .title__para--wrapper {
   width: 250px;
   max-width: 1000px;
-  margin: 48px 0 40px 150px;
+  margin: 20px 120px;
 }
 
 /* VALUES */
@@ -429,16 +418,15 @@ svg {
 }
 
 .value__title {
-  height: 50px;
-  font-size: 20px;
-  text-align: center;
-  width: 75px;
-  padding: 30px 0 0 0;
+  font-size: 24px;
   opacity: 0.8;
+  padding: 8px;
 }
 
 .icon__title--wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon__para {
@@ -453,7 +441,6 @@ svg {
 
 .icon__para--container {
   height: 50%;
-  width: 50%;
   max-width: 700px;
 }
 
@@ -474,12 +461,9 @@ svg {
   padding: 6px 16px 8px 12px;
   background-color: lightgreen;
   font-size: 20px;
-  margin: 24px 16px 8px 8px;
   color: darkgreen;
   border: 50px;
   border-radius: 25px;
-  justify-content: center;
-  align-items: center;
 }
 
 .suitcase__icon {
@@ -488,11 +472,8 @@ svg {
   padding: 6px 16px 8px 8px;
   background-color: lightcoral;
   font-size: 20px;
-  margin: 24px 16px 8px 8px;
   color: red;
   border-radius: 50px;
-  justify-content: center;
-  align-items: center;
 }
 
 .value__btn {
@@ -528,7 +509,7 @@ svg {
   max-width: 1300px;
   justify-content: center;
   text-align: center;
-  margin: 150px 40px 40px 40px;
+  margin: 150px 0 0 0;
 }
 
 .price__heading {
@@ -536,19 +517,18 @@ svg {
   margin: 32px;
   font-weight: 900;
   opacity: 0.8;
+  text-align: center;
 }
 
 .price__para {
-  margin: 16px 150px;
+  margin: 0 auto;
   font-size: 18px;
   color: darkgray;
   width: 70%;
-  text-align: center;
-  display: block;
 }
 
 .price__title {
-  align-items: center;
+  text-align: center;
   font-size: 16px;
   font-weight: 700;
 }
@@ -689,7 +669,6 @@ svg {
   width: 100%;
   max-width: 1300px;
   padding: 100px 50px;
-  height: 100vh;
 }
 
 .testimonials__img--container {
@@ -704,7 +683,7 @@ svg {
 
 .testimonials__img {
   width: 100%;
-  margin-top: 200px;
+  margin: 40% 0;
 }
 
 .testimonial__title {
@@ -833,12 +812,12 @@ svg {
 }
 
 .get__started--btn {
-  padding: 24px 48px;
+  padding: 16px 24px;
   background-color: rgb(247, 98, 128);
   color: white;
   border-radius: 50px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -848,12 +827,12 @@ svg {
 }
 
 .contact__us--btn {
-  padding: 24px 48px;
+  padding: 16px 24px;
   background-color: #6415ff;
   color: white;
   border-radius: 50px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   border: 3px solid lightgray;
 }
@@ -993,7 +972,10 @@ svg {
   .bars {
     color: #6415ff;
     font-size: 32px;
+  }
 
+  .logo__wrapper {
+    justify-content: center;
   }
 
   .nav__container {
@@ -1016,11 +998,11 @@ svg {
   .logo {
     height: 50px;
     width: 50px;
+    margin: 0;
   }
 
   .header {
     flex-direction: column;
-    height: 200vh;
   }
 
   .header__wrapper {
@@ -1035,7 +1017,6 @@ svg {
 
   .header__title {
     width: 100%;
-    max-width: 700px;
     text-align: center;
     font-size: 30px;
   }
@@ -1043,32 +1024,39 @@ svg {
   .header__para {
     font-size: 16px;
     text-align: center;
-    position: relative;
-    max-width: 650px;
-    width: 100%;
-    display: block;
+    padding: 0 40px;
+    overflow: none;
   }
 
   .email__wrapper {
-    margin: 40px 40px 40px 200px;
+    align-items: center;
+    margin: 0 auto;
   }
 
   .email__btn {
-    padding: 8px 36px;
+    padding: 4px 36px;
+    font-size: 16px;
+    font-family: 900; 
   }
 
   .customers {
     padding-top: 12px;
   }
 
-  .desk__img {
+  .customer__logo {
+    padding: 0;
     width: 80%;
-    max-width: 750px;
+    margin: auto 0;
+  }
+
+  .desk__img {
+    transform: scale(0.8);
+    margin: auto 0;
+    padding: 0 auto;
   }
 
   .features__container {
     margin-top: 800px;
-    height: 290vh;
   }
 
   .features__title {
@@ -1084,26 +1072,23 @@ svg {
   }
 
   .services__container {
-    display: block;
-    width: 100%;
     padding: 0 auto;
   }
 
   .service {
-    height: 40vh;
-    width: 100%;
+    width: 50%;
     text-align: center;
     justify-content: center;
-    display: flex;
+    display: block;
   }
 
   .service__icon {
     font-size: 24px;
+    margin-top: 
   }
 
   .service__title {
     font-size: 40px;
-    padding: 24px 0;
   }
 
   .service__para {
@@ -1113,18 +1098,23 @@ svg {
   }
 
   .quality__container {
-    height: 130vh;
     width: 100%;
+    overflow: none;
+    display: flex;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    margin: auto 0;
+  }
+
+  .quality__img--wrapper {
+    width: 100%;
+    margin-top: 300px;
+    align-items: center;
   }
 
   .quality__img {
-    width: 100%;
-    transform:scale(1.5);
-    margin-bottom: 72px;
+    width: 90%;
+    margin: 0 40px;
   }
 
   .quality__heading--wrapper {
@@ -1152,7 +1142,6 @@ svg {
   }
 
   .steps__container {
-    height: 180vh;
     display: block;
     width: 100%;
     justify-content: center;
@@ -1174,20 +1163,26 @@ svg {
   }
 
   .step__wrapper {
-    width: 100%;
+    align-items: center;
   }
 
   .title__para--wrapper {
     width: 100%;
+    margin: 0;
+  }
+
+  .number {
+    width: 50%;
   }
 
   .num__title {
     font-size: 32px;
+    width: 100%;
   }
 
   .step__para {
     font-size: 16px;
-    align-items: center;
+    margin: 16px auto;
   }
 
   .value__title {
@@ -1209,16 +1204,19 @@ svg {
   }
 
   .plans__container {
-    width: 750px;
     display: block;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 275px;
-    
+  }
+
+  .plans {
+    margin: 32px auto;
   }
 
   .testimonials__container {
     height: 150vh;
+  }
+
+  .testimonials__img--container {
+    width: 0;
   }
 
   .testimonials__img {
@@ -1252,6 +1250,7 @@ svg {
 
   .footer__copyright {
     margin: 0 auto;
+    font-size: 12px;
   }
 
   .footer__logos {
@@ -1267,6 +1266,15 @@ svg {
     display: none;
   }
 
+  .bars{
+    color: #6415ff;
+    font-size: 16px;
+  }
+
+  .header__wrapper {
+    height: 100vh;
+  }
+
   .header__title {
     text-align: center;
     margin: 0 auto;
@@ -1274,31 +1282,46 @@ svg {
 
   .header__para {
     width: 550px;
-    margin: 32px 0;
+    margin: 24px 0;
   }
 
   .email__wrapper {
-    margin: 0 auto;
+    width: 71%;
+    display: flex;
+    flex-direction: column;
+    height: 36px;
+    padding: 0;
+  }
+
+  input.email {
+    text-align: center;
+    padding: 6px 0;
+    height: 50px;
   }
 
   .email__btn {
-    padding: 4px 32px;
+    margin: 24px 0;
+    font-size: 16px;
+    padding: 8px 158px; 
+    height: 40px;    
   }
 
-  .features__container {
-    height: 280vh;
+  .customers {
+    padding: 40px 0 0 0;
   }
 
   .services__container {
     width: 550px;
-    height: 150vh;
-    margin: 0 auto;
+    height: 500vh;
+    margin: auto 0;
+    display: block;
     box-sizing: content-box;
   }
 
   .service {
+    width: 350px;
     display: block;
-    margin: 0 auto;
+    margin: 54px auto;
   }
 
   .service__icon {
@@ -1310,22 +1333,25 @@ svg {
   }
 
   .service__para {
-    width: 150px;
+    width: 260px;
     display: block;
-    height: 100px;
+    height: 150px;
     margin: 8px auto;
   }
 
   .quality__container {
     display: block;
-    height: 250vh;
     width: 550px;
-    margin: 48px 0;
+    margin: auto 32px;
   }
 
   .quality__heading--wrapper {
     width: 550px;
     text-align: center;
+  }
+  
+  .quality__img--wrapper {
+    margin: 40px 0;
   }
 
   .quality__img {
