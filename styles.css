@@ -177,7 +177,7 @@ p.customers {
 
 #features {
   text-align: center;
-  margin-top: 400px;
+  padding-top: 400px;
 }
 
 .features__container {
@@ -365,10 +365,6 @@ svg {
   font-size: 20px;
   font-weight: 600;
   width: 40%;
-}
-
-.step__wrapper {
-
 }
 
 .step__para {
@@ -1006,7 +1002,6 @@ svg {
   }
 
   .header__wrapper {
-    height: 80vh;
     width: 100%;
     max-width: 768px;
     margin-left: auto;
@@ -1036,7 +1031,7 @@ svg {
   .email__btn {
     padding: 4px 36px;
     font-size: 16px;
-    font-family: 900; 
+    font-family: 900;
   }
 
   .customers {
@@ -1056,7 +1051,7 @@ svg {
   }
 
   .features__container {
-    margin-top: 800px;
+    padding-top: 100px;
   }
 
   .features__title {
@@ -1084,7 +1079,6 @@ svg {
 
   .service__icon {
     font-size: 24px;
-    margin-top: 
   }
 
   .service__title {
@@ -1094,7 +1088,7 @@ svg {
   .service__para {
     font-size: 24px;
     text-align: center;
-    width: 60%; 
+    width: 60%;
   }
 
   .quality__container {
@@ -1176,7 +1170,7 @@ svg {
   }
 
   .num__title {
-    font-size: 32px;
+    font-size: 36px;
     width: 100%;
   }
 
@@ -1211,10 +1205,6 @@ svg {
     margin: 32px auto;
   }
 
-  .testimonials__container {
-    height: 150vh;
-  }
-
   .testimonials__img--container {
     width: 0;
   }
@@ -1226,7 +1216,7 @@ svg {
   .bottom__container {
     height: 250px;
     width: 750px;
-    margin: 32px 8px;
+    margin: 32px 0;
   }
 
   .bottom__para {
@@ -1266,13 +1256,9 @@ svg {
     display: none;
   }
 
-  .bars{
+  .bars {
     color: #6415ff;
     font-size: 16px;
-  }
-
-  .header__wrapper {
-    height: 100vh;
   }
 
   .header__title {
@@ -1286,7 +1272,7 @@ svg {
   }
 
   .email__wrapper {
-    width: 71%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     height: 36px;
@@ -1302,17 +1288,20 @@ svg {
   .email__btn {
     margin: 24px 0;
     font-size: 16px;
-    padding: 8px 158px; 
-    height: 40px;    
+    padding: 8px 150px;
+    height: 40px;
   }
 
   .customers {
     padding: 40px 0 0 0;
   }
 
+  .features__container {
+    padding-top: 100px;
+  }
+
   .services__container {
     width: 550px;
-    height: 500vh;
     margin: auto 0;
     display: block;
     box-sizing: content-box;
@@ -1325,7 +1314,7 @@ svg {
   }
 
   .service__icon {
-    border: none;
+    margin: 0 auto;
   }
 
   .service__title {
@@ -1342,21 +1331,35 @@ svg {
   .quality__container {
     display: block;
     width: 550px;
-    margin: auto 32px;
+    margin: 100px auto;
   }
+
+.quality__title {
+  font-size: 16px;
+}
 
   .quality__heading--wrapper {
     width: 550px;
     text-align: center;
   }
-  
+
+  .quality__heading {
+    padding: 32px 0;
+  }
+
+  .quality__para {
+    padding: 0;
+    font-size: 20px;
+    height: 200px;
+    width: 550px;
+  }
+
   .quality__img--wrapper {
     margin: 40px 0;
   }
 
   .quality__img {
-    width: 550px;
-    margin: 24px 0;
+    margin: 24px;
   }
 
   .steps__img--wrapper {
@@ -1372,21 +1375,34 @@ svg {
     width: 550px;
   }
 
-  .steps__heading--wrapper{
+  .steps__title {
+    font-size: 16px;
+  }
+
+  .steps__heading--wrapper {
     width: 550px;
     text-align: center;
   }
 
-  .num__title {
-    font-size: 20px;
+  .steps__heading {
+    margin: 24px auto;
+    font-size: 40px;
   }
 
-  .step__wrapper {
-    margin-left: 50px;
+  .number {
+    margin: 0;
+    font-size: 40px;
+    width: 550px;
+  }
+
+  .num__title {
+    font-size: 32px;
+    padding: 48px 0 0 0;
   }
 
   .step__para {
-    text-align: left;
+    text-align: center;
+    margin: 32px auto;
   }
 
   .values__icon--wrapper {
@@ -1400,9 +1416,7 @@ svg {
   }
 
   .values__icon-para--wrapper {
-    width: 550px;
     text-align: center;
-    margin-left: 100px;
   }
 
   .value__img {
@@ -1412,13 +1426,17 @@ svg {
     width: 550px;
   }
 
+  .icon__para {
+    text-align: center;
+    margin: 24px auto;
+  }
+
   .price__para {
     margin: 0 auto;
     text-align: center;
   }
 
   .plans__container {
-    margin: 0 17%;
     width: 100%;
     max-width: 550px;
   }
@@ -1428,21 +1446,19 @@ svg {
   }
 
   .plans {
-    margin: 16px 0;
+    margin: 32px auto;
     width: 70%;
   }
 
   .testimonials__container {
-    height: 200vh;
     margin: 0 auto;
     width: 550px;
     text-align: center;
-    padding: 48px 0;
+    padding: 4px 0;
     overflow: none;
   }
 
   .testimonial__heading--container {
-    height: 200vh;
     max-width: 550px;
     margin: 50px 0;
     text-align: center;
@@ -1499,7 +1515,6 @@ svg {
 
   .footer__title {
     font-size: 12px;
-  
   }
 
   .footer__list {
@@ -1553,6 +1568,6 @@ svg {
   .youtube__logo {
     font-size: 14px;
     margin: 0 0 24px 32px;
-    padding: 8px 
+    padding: 8px;
   }
 }
