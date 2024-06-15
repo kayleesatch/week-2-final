@@ -1261,16 +1261,18 @@ svg {
   }
 
   .header__container {
-    width: 550px;
+    width: 576px;
+    height: 30vh;
     margin: 0
   }
 
-  #header.landing {
-    width: 550px;
+  .landing {
+    max-width: 576px;
+    margin: auto;
   }
 
   .header__wrapper {
-    width: 550px;
+    width: 576px;
   }
 
   .header__title {
@@ -1310,7 +1312,11 @@ svg {
   }
 
   .features__container {
-    padding-top: 100px;
+    padding-top: 150px;
+  }
+
+  .features__title {
+    width: 576px;
   }
 
   .features__heading {
@@ -1323,7 +1329,7 @@ svg {
   }
 
   .services__container {
-    width: 550px;
+    width: 576px;
     margin: auto 0;
     display: block;
     box-sizing: content-box;
@@ -1354,7 +1360,7 @@ svg {
 
   .quality__container {
     display: block;
-    width: 550px;
+    width: 576px;
     margin: 100px auto;
   }
 
@@ -1363,7 +1369,7 @@ svg {
 }
 
   .quality__heading--wrapper {
-    width: 550px;
+    width: 576px;
     text-align: center;
   }
 
@@ -1378,6 +1384,7 @@ svg {
     font-size: 20px;
     height: 200px;
     width: 550px;
+    margin: auto;
   }
 
   .quality__btn {
@@ -1482,7 +1489,7 @@ svg {
 
   .plans {
     margin: 32px auto;
-    width: 70%;
+    width: 50%;
   }
 
   .testimonials__container {
