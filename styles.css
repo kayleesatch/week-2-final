@@ -1283,7 +1283,7 @@ svg {
 
   .header__para {
     width: 550px;
-    margin: 24px 0;
+    margin: 24px auto;
   }
 
   .email__wrapper {
@@ -1303,16 +1303,21 @@ svg {
   .email__btn {
     margin: 24px 0;
     font-size: 16px;
-    padding: 16px 146px;
+    padding: 16px 147px;
     height: 48px;
   }
 
   .customers {
     padding: 40px 0 0 0;
+    margin: 40px auto;
+  }
+
+  .desk__img {
+    margin: auto;
   }
 
   .features__container {
-    padding-top: 150px;
+    padding-top: 300px;
   }
 
   .features__title {
@@ -1325,7 +1330,9 @@ svg {
   }
 
   .features__para {
+    width: 200px;
     font-size: 18px;
+    margin: 24px auto;
   }
 
   .services__container {
@@ -1371,6 +1378,7 @@ svg {
   .quality__heading--wrapper {
     width: 576px;
     text-align: center;
+    margin-top: 150px;
   }
 
   .quality__heading {
@@ -1551,6 +1559,7 @@ svg {
   }
 
   .footer__container {
+    width: 576px;
     height: 150px;
     margin: auto 0;
   }
@@ -1575,6 +1584,7 @@ svg {
 
   .footer__bottom {
     height: 50px;
+    width: 576px;
   }
 
   .footer__logo {
@@ -1582,8 +1592,7 @@ svg {
   }
 
   .logo__name {
-    margin: 16px 0;
-    font-size: 12px;
+    display: none;
   }
 
   .footer__copyright {
@@ -1591,8 +1600,9 @@ svg {
   }
 
   .footer__logos {
-    width: 160px;
-    align-items: center;
+    height: 30px;
+    margin: 0;
+    padding: 0;
   }
 
   .facebook__logo {
