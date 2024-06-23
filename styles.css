@@ -1259,11 +1259,12 @@ svg {
     color: #6415ff;
     background-color: white;
     padding: 16px;
-    transform: translateX(1);
+    z-index: 1;
+    justify-content: right;
   }
 
   .header__container {
-    width: 576px;
+    max-width: 576px;
     height: 50vh;
     margin: 0
   }
@@ -1274,7 +1275,7 @@ svg {
   }
 
   .header__wrapper {
-    width: 576px;
+    max-width: 576px;
   }
 
   .header__title {
@@ -1289,7 +1290,7 @@ svg {
   }
 
   .email__wrapper {
-    width: 70%;
+    width: 68%;
     display: flex;
     flex-direction: column;
     height: 48px;
@@ -1314,22 +1315,29 @@ svg {
     margin: 40px auto;
   }
 
+  .customer__logo {
+    width: 550px;
+    margin: 0 auto;
+  }
+
   .desk__img {
     margin: auto;
   }
 
   .features__container {
     padding-top: 100px;
-    width: 576px;
+    max-width: 576px;
   }
 
   .features__title {
-    width: 576px;
+    width: 550px;
+    margin: 16px auto;
   }
 
   .features__heading {
     font-size: 40px;
-    width: 576px;
+    width: 550px;
+    margin: 24px auto;
   }
 
   .features__para {
@@ -1339,7 +1347,7 @@ svg {
   }
 
   .services__container {
-    width: 576px;
+    width: 550px;
     margin: auto 0;
     display: block;
     box-sizing: content-box;
@@ -1370,12 +1378,13 @@ svg {
 
   .quality__container {
     display: block;
-    width: 576px;
+    max-width: 576px;
     margin: 100px auto;
   }
 
 .quality__title {
   font-size: 16px;
+  margin: 0 auto;
 }
 
   .quality__heading--wrapper {
@@ -1422,6 +1431,7 @@ svg {
   .steps__container {
     display: block;
     width: 550px;
+    margin: 0 auto;
   }
 
   .steps__title {
@@ -1462,6 +1472,7 @@ svg {
   .values__container {
     width: 550px;
     text-align: center;
+    margin: 0 auto;
   }
 
   .values__heading {
@@ -1484,7 +1495,12 @@ svg {
     margin: 24px auto;
   }
 
+  .pricing__heading--container {
+    max-width: 576px;
+  }
+
   .price__para {
+    width: 500px;
     margin: 0 auto;
     text-align: center;
   }
@@ -1492,6 +1508,7 @@ svg {
   .plans__container {
     width: 100%;
     max-width: 550px;
+    margin: 24px auto;
   }
 
   .price {
