@@ -997,6 +997,10 @@ svg {
     margin: 0;
   }
 
+  .header__container {
+    height: 70vh;
+  }
+
   .header {
     flex-direction: column;
   }
@@ -1102,13 +1106,12 @@ svg {
 
   .quality__img--wrapper {
     width: 100%;
-    margin-top: 300px;
     align-items: center;
   }
 
   .quality__img {
     width: 90%;
-    margin: 0 40px;
+    margin: 50px 40px;
   }
 
   .quality__heading--wrapper {
