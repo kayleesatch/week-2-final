@@ -966,6 +966,7 @@ svg {
 
   .bars {
     color: #6415ff;
+    display: right;
     
   }
 
@@ -1253,6 +1254,7 @@ svg {
 @media (max-width: 576px) {
   .nav__links {
     display: none;
+    z-index: 2;
   }
 
   .bars {
@@ -1260,6 +1262,7 @@ svg {
     background-color: white;
     padding: 16px;
     z-index: 1;
+    text-align: right;
     justify-content: right;
   }
 
@@ -1316,7 +1319,6 @@ svg {
   }
 
   .customer__logo {
-    width: 550px;
     margin: 0 auto;
   }
 
@@ -1335,19 +1337,18 @@ svg {
   }
 
   .features__heading {
-    font-size: 40px;
+    font-size: 30px;
     width: 550px;
     margin: 24px auto;
   }
 
   .features__para {
     width: 400px;
-    font-size: 18px;
+    font-size: 16px;
     margin: 24px auto;
   }
 
   .services__container {
-    width: 550px;
     margin: auto 0;
     display: block;
     box-sizing: content-box;
@@ -1466,11 +1467,10 @@ svg {
 
   .values__icon--wrapper {
     display: block;
-    width: 550px;
   }
 
   .values__container {
-    width: 550px;
+    width: 576px;
     text-align: center;
     margin: 0 auto;
   }
@@ -1483,11 +1483,15 @@ svg {
     text-align: center;
   }
 
+  .value__img--container {
+    width: 100%;
+    max-width: 576px;
+  }
+
   .value__img {
     margin: 0 auto;
     padding: 12px 0;
     align-items: center;
-    width: 550px;
   }
 
   .icon__para {
@@ -1499,7 +1503,12 @@ svg {
     max-width: 576px;
   }
 
+  .price__heading {
+    font-size: 30px;
+  }
+
   .price__para {
+    font-size: 16px;
     width: 500px;
     margin: 0 auto;
     text-align: center;
@@ -1508,7 +1517,6 @@ svg {
   .plans__container {
     width: 100%;
     max-width: 550px;
-    margin: 24px auto;
   }
 
   .price {
