@@ -1715,6 +1715,10 @@ svg {
     width: 300px;
   }
 
+  .quality__heading--wrapper {
+    width: 300px;
+  }
+
   .quality__title {
     width: 300px;
     margin: 0;
@@ -1752,6 +1756,14 @@ svg {
     width: 300px;
   }
 
+  .steps__heading--wrapper {
+    width: 300px;
+  }
+
+  .step__wrapper {
+    width: 300px;
+  }
+
   .steps__title {
     width: 300px;
     text-align: center;
@@ -1776,6 +1788,10 @@ svg {
   }
 
   .price__para {
+    width: 300px;
+  }
+
+  .testimonials__container {
     width: 300px;
   }
 
