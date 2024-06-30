@@ -1121,6 +1121,9 @@ svg {
 
   .quality__title {
     font-size: 24px;
+    text-align: center;
+    width: 768px;
+    margin: 0;
   }
 
   .quality__para {
@@ -1156,6 +1159,7 @@ svg {
 
   .steps__title {
     font-size: 24px;
+    text-align: center;
   }
 
   .step__wrapper {
@@ -1181,8 +1185,9 @@ svg {
     margin: 16px auto;
   }
 
-  .value__title {
+  .values__title {
     font-size: 18px;
+    text-align: center;
   }
 
   .para__icon--wrapper {
@@ -1218,7 +1223,7 @@ svg {
   .bottom__container {
     height: 250px;
     width: 750px;
-    margin: 32px 0;
+    margin: 32px auto;
   }
 
   .bottom__para {
@@ -1311,7 +1316,7 @@ svg {
   .email__btn {
     margin: 24px 0;
     font-size: 16px;
-    padding: 16px 147px;
+    padding: 16px 120px;
     height: 48px;
   }
 
@@ -1387,7 +1392,10 @@ svg {
 
 .quality__title {
   font-size: 16px;
-  margin: 0 auto;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 576px;
 }
 
   .quality__heading--wrapper {
@@ -1399,6 +1407,7 @@ svg {
   .quality__heading {
     padding: 32px 0;
     font-size: 30px;
+    width: 576px;
   }
 
   .quality__para {
@@ -1439,6 +1448,7 @@ svg {
 
   .steps__title {
     font-size: 16px;
+    text-align: center;
   }
 
   .steps__heading--wrapper {
