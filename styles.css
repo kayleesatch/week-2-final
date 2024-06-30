@@ -163,7 +163,6 @@ p.customers {
   margin: 40px;
   font-size: 16px;
   color: darkgray;
-  padding-left: 40px;
   text-align: center;
 }
 
@@ -1652,5 +1651,100 @@ svg {
     font-size: 14px;
     margin: 0 0 24px 32px;
     padding: 8px;
+  }
+}
+
+@media (max-width: 300px) {
+  #html {
+    max-width: 300px;
+  }
+
+  .bars {
+    color: #6415ff;
+  }
+
+  .header__title {
+    width: 300px;
+  }
+
+  .header__para {
+    width: 300px;
+  }
+
+  .email__wrapper {
+    width: 250px;
+  }
+
+  .email__btn {
+    width: 250px;
+    font-size: 16px;
+    padding: 12px 75px;
+  }
+
+  .customers {
+    text-align: center;
+    padding: 40px 0 0 0;
+  }
+
+  .features__container {
+    width: 300px;
+    padding: 0;
+  }
+
+  .features__title {
+    width: 300px;
+  }
+
+  .features__heading {
+    width: 300px;
+  }
+
+  .features__para {
+    width: 300px;
+  }
+
+  .service__container {
+    width: 300px;
+  }
+
+  .service {
+    width: 300px;
+  }
+
+  .quality__container {
+    width: 300px;
+  }
+
+  .quality__title {
+    width: 300px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .quality__heading {
+    width: 300px;
+  }
+
+  .quality__para {
+    width: 300px;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .quality__btn--wrapper {
+    width: 300px;
+  }
+
+  .quality__btn {
+    width: 200px;
+    margin: 0;
+  }
+
+  .quality__img--wrapper {
+    width: 300px;
+  }
+
+  .quality__img {
+    margin: 15px;
   }
 }
