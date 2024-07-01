@@ -1664,7 +1664,119 @@ svg {
     padding: 8px;
   }
 }
+/*400px SMALL PHONES*/
+@media (max-width: 400px) {
+  #html {
+    max-width: 400px;
+  }
 
+  .bars {
+    color: #6415ff;
+  }
+
+  .header__title {
+    width: 400px;
+  }
+
+  .header__para {
+    width: 400px;
+  }
+
+  .email__btn {
+    padding: 12px;
+    width: 275px;
+  }
+
+  .features__title {
+    width: 400px;
+  }
+
+  .features__heading {
+    width: 400px;
+  }
+
+  .quality__heading--wrapper {
+    width: 400px;
+  }
+
+  .quality__title {
+    width: 400px;
+  }
+
+  .quality__heading {
+    width: 400px;
+    font-size: 24px;
+  }
+
+  .quality__para {
+    width: 400px;
+  }
+
+  .steps__heading--wrapper {
+    width: 400px;
+  }
+
+  .steps__container {
+    width: 400px;
+  }
+
+  .number {
+    width: 400px;
+  }
+
+  .values__container {
+    width: 400px;
+  }
+
+  .price__para {
+    width: 400px;
+  }
+
+  .testimonials__container {
+    width: 400px;
+  }
+
+  .testimonial__heading--container {
+    width: 400px;
+  }
+
+  .btn__box {
+    margin: 0;
+  }
+
+  .bottom__container {
+    width: 400px;
+  }
+
+  .bottom__para {
+    font-size: 12px;
+    width: 150px;
+  }
+
+  .bottom__btn {
+    width: 125px;
+  }
+
+  .footer__container {
+    width: 400px;
+  }
+
+  .footer__bottom {
+    width: 400px;
+  }
+
+  .footer__logo {
+    margin: 16px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .footer__copyright {
+    height: 40px;
+    padding: 15px 0;
+  }
+}
+/*SMALL PHONES*/
 @media (max-width: 300px) {
   #html {
     max-width: 300px;
