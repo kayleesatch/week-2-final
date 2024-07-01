@@ -1785,8 +1785,16 @@ svg {
     max-width: 300px;
   }
 
+  .nav__container {
+    width: 300px;
+  }
+
   .bars {
     color: #6415ff;
+  }
+
+  .header__container {
+    width: 300px;
   }
 
   .header__title {
@@ -1930,6 +1938,10 @@ svg {
     flex-direction: column;
   }
 
+  .photo__random--girl {
+    margin: 0;
+  }
+
   .name__box {
     width: 300px;
     margin: 0;
@@ -1968,7 +1980,7 @@ svg {
   }
 
   .footer__logo {
-    padding-top: 24px;
+    display: none;
   }
 
   .footer__copyright {
