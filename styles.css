@@ -1122,8 +1122,9 @@ svg {
   .quality__title {
     font-size: 24px;
     text-align: center;
-    width: 768px;
+    width: 750px;
     margin: 0;
+    padding: 0;
   }
 
   .quality__para {
