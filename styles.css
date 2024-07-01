@@ -966,7 +966,6 @@ svg {
   .bars {
     color: #6415ff;
     display: right;
-    
   }
 
   .logo__wrapper {
@@ -1277,7 +1276,7 @@ svg {
   .header__container {
     max-width: 576px;
     height: 50vh;
-    margin: 0
+    margin: 0;
   }
 
   .landing {
@@ -1292,7 +1291,6 @@ svg {
   .header__title {
     text-align: center;
     margin: 0 auto;
-    width: 550px;
   }
 
   .header__para {
@@ -1391,13 +1389,13 @@ svg {
     margin: 100px auto;
   }
 
-.quality__title {
-  font-size: 16px;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  width: 576px;
-}
+  .quality__title {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 576px;
+  }
 
   .quality__heading--wrapper {
     width: 576px;
@@ -1666,16 +1664,21 @@ svg {
 }
 /*400px SMALL PHONES*/
 @media (max-width: 400px) {
-  #html {
-    max-width: 400px;
+  .nav__container {
+    width: 400px;
   }
 
   .bars {
     color: #6415ff;
   }
 
+  .header__container {
+    width: 400px;
+  }
+
   .header__title {
     width: 400px;
+    font-size: 24px;
   }
 
   .header__para {
