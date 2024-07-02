@@ -176,7 +176,7 @@ p.customers {
 
 #features {
   text-align: center;
-  padding-top: 400px;
+  padding-top: 200px;
 }
 
 .features__container {
@@ -1028,6 +1028,8 @@ svg {
   .email__wrapper {
     align-items: center;
     margin: 0 auto;
+    height: 50px;
+    display: flex;
   }
 
   .email__btn {
@@ -1121,7 +1123,6 @@ svg {
   .quality__title {
     font-size: 24px;
     text-align: center;
-    width: 750px;
     margin: 0;
     padding: 0;
   }
@@ -1258,7 +1259,7 @@ svg {
 
 /* SMALL PHONES, LARGE SMARTPHONES */
 
-@media (max-width: 576px) {
+@media (max-width: 414px) {
   .nav__links {
     display: none;
     z-index: 2;
@@ -1274,18 +1275,18 @@ svg {
   }
 
   .header__container {
-    max-width: 576px;
+    max-width: 414px;
     height: 50vh;
     margin: 0;
   }
 
   .landing {
-    max-width: 576px;
+    max-width: 414px;
     margin: auto;
   }
 
   .header__wrapper {
-    max-width: 576px;
+    max-width: 414px;
   }
 
   .header__title {
@@ -1294,16 +1295,12 @@ svg {
   }
 
   .header__para {
-    width: 550px;
     margin: 24px auto;
   }
 
   .email__wrapper {
-    width: 68%;
-    display: flex;
-    flex-direction: column;
+    width: 80%;
     height: 48px;
-    padding: 0;
   }
 
   input.email {
@@ -1315,8 +1312,9 @@ svg {
   .email__btn {
     margin: 24px 0;
     font-size: 16px;
-    padding: 16px 120px;
     height: 48px;
+    padding: 12px 75px;
+    width: 280px;
   }
 
   .customers {
@@ -1333,18 +1331,16 @@ svg {
   }
 
   .features__container {
-    padding-top: 100px;
-    max-width: 576px;
+    max-width: 414px;
   }
 
   .features__title {
-    width: 550px;
     margin: 16px auto;
+    font-size: 24px;
   }
 
   .features__heading {
     font-size: 30px;
-    width: 550px;
     margin: 24px auto;
   }
 
@@ -1385,7 +1381,6 @@ svg {
 
   .quality__container {
     display: block;
-    max-width: 576px;
     margin: 100px auto;
   }
 
@@ -1394,11 +1389,10 @@ svg {
     padding: 0;
     margin: 0;
     text-align: center;
-    width: 576px;
+    width: 414px;
   }
 
   .quality__heading--wrapper {
-    width: 576px;
     text-align: center;
     margin-top: 100px;
   }
@@ -1406,7 +1400,7 @@ svg {
   .quality__heading {
     padding: 32px 0;
     font-size: 30px;
-    width: 576px;
+    width: 414px;
   }
 
   .quality__para {
@@ -1414,7 +1408,7 @@ svg {
     padding: 0;
     font-size: 20px;
     height: 200px;
-    width: 550px;
+    width: 414px;
     margin: auto;
   }
 
@@ -1441,7 +1435,7 @@ svg {
 
   .steps__container {
     display: block;
-    width: 550px;
+    width: 414px;
     margin: 0 auto;
   }
 
@@ -1451,7 +1445,7 @@ svg {
   }
 
   .steps__heading--wrapper {
-    width: 550px;
+    width: 414px;
     text-align: center;
   }
 
@@ -1463,7 +1457,7 @@ svg {
   .number {
     margin: 0;
     font-size: 40px;
-    width: 550px;
+    width: 414px;
   }
 
   .num__title {
@@ -1481,7 +1475,7 @@ svg {
   }
 
   .values__container {
-    width: 576px;
+    width: 414px;
     text-align: center;
     margin: 0 auto;
   }
@@ -1520,7 +1514,7 @@ svg {
 
   .price__para {
     font-size: 16px;
-    width: 500px;
+    width: 414px;
     margin: 0 auto;
     text-align: center;
   }
@@ -1541,14 +1535,14 @@ svg {
 
   .testimonials__container {
     margin: 0 auto;
-    width: 550px;
+    width: 414px;
     text-align: center;
     padding: 4px 0;
     overflow: none;
   }
 
   .testimonial__heading--container {
-    max-width: 550px;
+    max-width: 414px;
     margin: 50px 0;
     text-align: center;
   }
@@ -1575,14 +1569,20 @@ svg {
     margin: 16px 0;
   }
 
+  .btn__box {
+    margin: 0;
+    padding: auto 0;
+  }
+
   .bottom__container {
     height: 150px;
-    width: 500px;
+    width: 414px;
     margin: 32px auto;
   }
 
   .bottom__para {
     margin: auto 0;
+    font-size: 12px;
   }
 
   .bottom__btn {
@@ -1660,344 +1660,5 @@ svg {
     font-size: 14px;
     margin: 0 0 24px 32px;
     padding: 8px;
-  }
-}
-/*400px SMALL PHONES*/
-@media (max-width: 400px) {
-  .nav__container {
-    width: 400px;
-  }
-
-  .bars {
-    color: #6415ff;
-  }
-
-  .header__container {
-    width: 400px;
-  }
-
-  .header__title {
-    width: 400px;
-    font-size: 24px;
-  }
-
-  .header__para {
-    width: 400px;
-  }
-
-  .email__btn {
-    padding: 12px;
-    width: 275px;
-  }
-
-  .features__title {
-    width: 400px;
-  }
-
-  .features__heading {
-    width: 400px;
-  }
-
-  .quality__heading--wrapper {
-    width: 400px;
-  }
-
-  .quality__title {
-    width: 400px;
-  }
-
-  .quality__heading {
-    width: 400px;
-    font-size: 24px;
-  }
-
-  .quality__para {
-    width: 400px;
-  }
-
-  .steps__heading--wrapper {
-    width: 400px;
-  }
-
-  .steps__container {
-    width: 400px;
-  }
-
-  .number {
-    width: 400px;
-  }
-
-  .values__container {
-    width: 400px;
-  }
-
-  .price__para {
-    width: 400px;
-  }
-
-  .testimonials__container {
-    width: 400px;
-  }
-
-  .testimonial__heading--container {
-    width: 400px;
-  }
-
-  .btn__box {
-    margin: 0;
-  }
-
-  .bottom__container {
-    width: 400px;
-  }
-
-  .bottom__para {
-    font-size: 12px;
-    width: 150px;
-  }
-
-  .bottom__btn {
-    width: 125px;
-  }
-
-  .footer__container {
-    width: 400px;
-  }
-
-  .footer__bottom {
-    width: 400px;
-  }
-
-  .footer__logo {
-    margin: 16px;
-    width: 25px;
-    height: 25px;
-  }
-
-  .footer__copyright {
-    height: 40px;
-    padding: 15px 0;
-  }
-}
-/*SMALL PHONES*/
-@media (max-width: 300px) {
-  #html {
-    max-width: 300px;
-  }
-
-  .nav__container {
-    width: 300px;
-  }
-
-  .bars {
-    color: #6415ff;
-  }
-
-  .header__container {
-    width: 300px;
-  }
-
-  .header__title {
-    width: 300px;
-  }
-
-  .header__para {
-    width: 300px;
-  }
-
-  .email__wrapper {
-    width: 250px;
-  }
-
-  .email__btn {
-    width: 250px;
-    font-size: 16px;
-    padding: 12px 75px;
-  }
-
-  .customers {
-    text-align: center;
-    padding: 40px 0 0 0;
-  }
-
-  .features__container {
-    width: 300px;
-    padding: 0;
-  }
-
-  .features__title {
-    width: 300px;
-  }
-
-  .features__heading {
-    width: 300px;
-  }
-
-  .features__para {
-    width: 300px;
-  }
-
-  .service__container {
-    width: 300px;
-  }
-
-  .service {
-    width: 300px;
-  }
-
-  .quality__container {
-    width: 300px;
-  }
-
-  .quality__heading--wrapper {
-    width: 300px;
-  }
-
-  .quality__title {
-    width: 300px;
-    margin: 0;
-    text-align: center;
-  }
-
-  .quality__heading {
-    width: 300px;
-  }
-
-  .quality__para {
-    width: 300px;
-    margin: 0;
-    font-size: 16px;
-  }
-
-  .quality__btn--wrapper {
-    width: 300px;
-  }
-
-  .quality__btn {
-    width: 200px;
-    margin: 0;
-  }
-
-  .quality__img--wrapper {
-    width: 300px;
-  }
-
-  .quality__img {
-    margin: 15px;
-  }
-
-  .steps__container {
-    width: 300px;
-  }
-
-  .steps__heading--wrapper {
-    width: 300px;
-  }
-
-  .step__wrapper {
-    width: 300px;
-  }
-
-  .steps__title {
-    width: 300px;
-    text-align: center;
-  }
-
-  .steps__heading {
-    width: 300px;
-    margin: 25px 0;
-  }
-
-  .number {
-    width: 300px;
-  }
-
-  .title__para--wrapper {
-    width: 300px;
-  }
-
-  .values__container {
-    width: 300px;
-    padding: 0;
-  }
-
-  .price__para {
-    width: 300px;
-  }
-
-  .testimonials__container {
-    width: 300px;
-  }
-
-  .testimonial__heading--container {
-    width: 300px;
-  }
-
-  .testimonials__bottom {
-    width: 300px;
-    flex-direction: column;
-  }
-
-  .photo__random--girl {
-    margin: 0;
-  }
-
-  .name__box {
-    width: 300px;
-    margin: 0;
-  }
-
-  .btn__box {
-    width: 300px;
-    margin: 20px 0;
-  }
-
-  .bottom__container {
-    width: 250px;
-  }
-
-  .bottom__para {
-    font-size: 12px;
-    width: 100px;
-  }
-
-  .get__started--btn {
-    font-size: 8px;
-    padding: 4px;
-  }
-
-  .contact__us--btn {
-    font-size: 8px;
-    padding: 4px;
-  }
-
-  .footer__container {
-    width: 300px;
-  }
-
-  .footer__bottom {
-    width: 300px;
-  }
-
-  .footer__logo {
-    display: none;
-  }
-
-  .footer__copyright {
-    width: 75px;
-    font-size: 8px;
-    padding: 0;
-  }
-
-  .facebook__logo {
-    margin: 0;
-  }
-
-  .twitter__logo {
-    margin: 0;
-  }
-
-  .youtube__logo {
-    margin: 0;
   }
 }
