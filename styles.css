@@ -185,7 +185,7 @@ p.customers {
 }
 
 .features__title {
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .features__heading {
@@ -197,7 +197,6 @@ p.customers {
 
 .features__para {
   align-items: center;
-  margin: 24px 150px 0 150px;
   color: darkgray;
 }
 
@@ -1028,18 +1027,28 @@ svg {
   .email__wrapper {
     align-items: center;
     margin: 0 auto;
-    height: 50px;
-    display: flex;
+    height: 30px;
+    width: 300px;
+    display: block;
+    padding: auto 0;
+  }
+
+  .email__input {
+    width: 300px;
+    font-size: 24px;
+    padding: 0 48px;
   }
 
   .email__btn {
-    padding: 4px 36px;
-    font-size: 16px;
+    padding: 8px 36px;
+    font-size: 12px;
     font-family: 900;
+    margin: 24px 0;
+    width: 300px;
   }
 
   .customers {
-    padding-top: 12px;
+    padding-top: 24px;
   }
 
   .customer__logo {
@@ -1148,8 +1157,15 @@ svg {
     align-items: center;
   }
 
+  .steps__img--wrapper {
+    width: 100%;
+    max-width: 768px;
+  }
+
   .steps__img {
-    width: 750px;
+    width: 100%;
+    max-width: 750px;
+    padding: 0 auto;
   }
 
   .steps__heading--wrapper {
@@ -1213,12 +1229,29 @@ svg {
     margin: 32px auto;
   }
 
+  .testimonials__container {
+    padding: 0;
+  }
+
+  .testimonial__heading--container {
+    width: 414px;
+    margin: 0 auto;
+  }
+
   .testimonials__img--container {
     width: 0;
   }
 
+  .testimonial__title {
+    text-align: center;
+  }
+
   .testimonials__img {
     display: none;
+  }
+
+  .btn__box {
+    margin: 0;
   }
 
   .bottom__container {
@@ -1259,7 +1292,7 @@ svg {
 
 /* SMALL PHONES, LARGE SMARTPHONES */
 
-@media (max-width: 414px) {
+@media (max-width: 320px) {
   .nav__links {
     display: none;
     z-index: 2;
@@ -1275,18 +1308,18 @@ svg {
   }
 
   .header__container {
-    max-width: 414px;
+    max-width: 320px;
     height: 50vh;
     margin: 0;
   }
 
   .landing {
-    max-width: 414px;
+    max-width: 320px;
     margin: auto;
   }
 
   .header__wrapper {
-    max-width: 414px;
+    max-width: 320px;
   }
 
   .header__title {
@@ -1299,7 +1332,7 @@ svg {
   }
 
   .email__wrapper {
-    width: 80%;
+    width: 200px;
     height: 48px;
   }
 
@@ -1307,14 +1340,14 @@ svg {
     text-align: center;
     padding: 12px 0;
     height: 50px;
+    width: 200px;
   }
 
   .email__btn {
-    margin: 24px 0;
-    font-size: 16px;
+    font-size: 8px;
     height: 48px;
     padding: 12px 75px;
-    width: 280px;
+    width: 200px;
   }
 
   .customers {
@@ -1331,7 +1364,7 @@ svg {
   }
 
   .features__container {
-    max-width: 414px;
+    max-width: 320px;
   }
 
   .features__title {
@@ -1345,9 +1378,9 @@ svg {
   }
 
   .features__para {
-    width: 400px;
+    width: 320px;
+    height: 200px;
     font-size: 16px;
-    margin: 24px auto;
   }
 
   .services__container {
@@ -1426,6 +1459,8 @@ svg {
   }
 
   .steps__img--wrapper {
+    width: 100%;
+    max-width: 414px;
     display: none;
   }
 
@@ -1575,14 +1610,16 @@ svg {
   }
 
   .bottom__container {
-    height: 150px;
-    width: 414px;
+    height: 100px;
+    width:400px;
+    max-width: 400px;
     margin: 32px auto;
   }
 
   .bottom__para {
     margin: auto 0;
-    font-size: 12px;
+    font-size: 8px;
+    width: 30%;
   }
 
   .bottom__btn {
@@ -1639,9 +1676,7 @@ svg {
   }
 
   .footer__logos {
-    height: 30px;
-    margin-right: 16px;
-    padding: 0;
+  display: none;
   }
 
   .facebook__logo {
