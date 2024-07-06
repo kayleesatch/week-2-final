@@ -1329,21 +1329,20 @@ svg {
   }
 
   .email__wrapper {
-    width: 150px;
-    height: 48px;
+    width: 80%;
+    max-width: 400px;
+    height: 50px;
   }
 
   input.email {
     text-align: center;
-    padding: 12px 0;
+    padding: 0;
     height: 50px;
     width: 100%;
   }
 
   .email__btn {
     font-size: 16px;
-    height: 48px;
-    width: 100%;
   }
 
   .customers {
@@ -1689,7 +1688,8 @@ svg {
   }
 
   .footer__logo {
-    margin: 25px 0;
+    align-items: center;
+    margin-top: 24px;
   }
 
   .logo__name {
@@ -1701,21 +1701,26 @@ svg {
     padding-bottom: 25px;
   }
 
+  .footer__logos {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
   .facebook__logo {
     font-size: 12px;
-    margin: 0 0 24px 32px;
+    margin: 8px;
     padding: 8px 12px;
   }
 
   .twitter__logo {
     font-size: 14px;
-    margin: 0 0 24px 32px;
+    margin: 8px;
     padding: 8px 10px;
   }
 
   .youtube__logo {
     font-size: 14px;
-    margin: 0 0 24px 32px;
+    margin: 8px;
     padding: 8px;
   }
 }
