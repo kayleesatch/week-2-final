@@ -1093,17 +1093,18 @@ svg {
 
   .service {
     width: 50%;
+    display: block;
     text-align: center;
-    justify-content: center;
     padding: 8px;
   }
 
   .img__container {
-    margin: 0 auto;
+   margin: 0 auto;
   }
 
   .service__icon {
     font-size: 24px;
+    margin: 0 auto;
   }
 
   .service__title {
@@ -1363,7 +1364,8 @@ svg {
 
   .email__btn {
     font-size: 16px;
-    padding: 4px 100;
+    padding: 8px 100px;
+    margin: 24px auto;
   }
 
   .customers {
